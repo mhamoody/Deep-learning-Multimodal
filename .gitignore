@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# But keep this .gitignore file
+!.gitignore
+
+# Keep dataset folder and its contents
+!/dataset/
+!/dataset/**
+
+# Keep the main notebooks
+!/01_FakeNewsNet_EDA.ipynb
+!/02_Image_Download_and_Preparation.ipynb
+!/03_Multimodal_Model_Training.ipynb
